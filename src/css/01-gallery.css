@@ -41,3 +41,17 @@
 .gallery__link:hover {
   cursor: zoom-in;
 }
+.image-container {
+  overflow: hidden;
+  width: 300px; /* Adjust as needed */
+  height: 300px; /* Adjust as needed */
+}
+
+#zoomable-image {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+#zoomable-image.zoomed {
+  transform: scale(1.5); /* Zoom effect */
